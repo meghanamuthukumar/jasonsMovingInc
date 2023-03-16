@@ -1,13 +1,13 @@
-package com.jason.movingInc;
+package com.jason.moving;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MovingIncApplication {
+public class MovingApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MovingIncApplication.class, args);
+		SpringApplication.run(MovingApplication.class, args);
 	}
 
 }

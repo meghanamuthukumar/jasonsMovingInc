@@ -1,10 +1,10 @@
-package com.jason.movingInc;
+package com.jason.moving;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MovingIncApplicationTests {
+class MovingApplicationTests {
 
 	@Test
 	void contextLoads() {
