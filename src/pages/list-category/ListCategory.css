@@ -1,0 +1,11 @@
+.categoryButton{
+    background-color: #fff !important;
+    border: solid 1px #183251;
+    color: #183251 !important;
+}
+.list-category-segment{
+    border: 1px solid #d5d5d5;
+    border-radius: 10px;
+    margin: 5px 25px;
+    padding: 5px;
+}

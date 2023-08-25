@@ -25,4 +25,6 @@ public class CustomerDTO {
 
     private Date updatedAt;
 
+    private int noOfHauls;
+
 }

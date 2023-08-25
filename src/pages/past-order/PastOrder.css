@@ -1,0 +1,96 @@
+.in-progress-orders {
+    color: #183251;
+    width: 360px !important;
+    height: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    font-family: Roboto, Arial;
+    font-size: .857rem;
+    font-weight: 600;
+    line-height: 20px;
+    display: flex;
+    margin-right: -10px !important;
+  }
+  
+  .past-orders {
+    height: 100%;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: flex-start;
+    align-items: center;
+    display: flex;
+  }
+  
+  .status-bar-instance-1 {
+    width: 100%;
+    flex-basis: 3%;
+  }
+  
+  .nav-item {
+    width: 375px !important;
+    background-color: #ffbe00;
+    flex-direction: row;
+    align-self: flex-start;
+    align-items: center;
+    column-gap: 12px;
+    font-size: 1rem;
+    display: flex;
+  }
+  
+  .state-layer-5 {
+    flex-direction: row;
+    align-items: center;
+    column-gap: 12px;
+    padding: 16px 24px 16px 16px;
+    display: flex;
+  }
+  
+  .container {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+  
+  .label {
+    margin-left: 1px;
+    margin-right: 127px;
+  }
+  
+  .tabs-instance-1 {
+    width: 100%;
+  }
+  
+  .label-text {
+    color: #49454f;
+    align-self: center;
+    margin-top: 21px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  
+  .label-text-1 {
+    width: 181px;
+    height: 16px;
+    object-fit: cover;
+    align-self: center;
+    margin-bottom: 212px;
+    margin-left: 36px;
+  }
+  
+  .navigation-bar-instance-1 {
+    width: 100%;
+    margin-top: 42px;
+  }
+  .past-order{
+    width: 300px;
+  }
+  .detailsButton{
+    margin-top: 20px !important;
+    margin-left: 60px !important;
+  }
+
+.in-progress-orders{
+  margin-bottom: 100px;
+}

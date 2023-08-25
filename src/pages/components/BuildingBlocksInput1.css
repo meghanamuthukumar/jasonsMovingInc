@@ -1,0 +1,27 @@
+.building-blocks-input-1 {
+  color: #1c1b1f;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 7px;
+  font-family: Roboto, Arial;
+  font-size: 4.071rem;
+  font-weight: 400;
+  line-height: 64px;
+  display: flex;
+}
+
+.default-zg-vm-yx-vsd-a-base {
+  border: .5px solid #b5b3b3;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  display: flex;
+}
+
+.time-text-1 {
+  margin: 18px 19px 20px;
+}

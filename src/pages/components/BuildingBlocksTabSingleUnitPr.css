@@ -1,0 +1,41 @@
+.building-blocks-tab-single-unit-pr {
+  color: #183251;
+  text-align: center;
+  background-color: #eae8e8;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: Roboto, Arial;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 20px;
+  display: flex;
+}
+
+.state-layer {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+}
+
+.tab-contents {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 8px;
+  display: flex;
+}
+
+.label-2 {
+  margin-top: 17px;
+  margin-bottom: 4px;
+}
+
+.indicator {
+  width: 73px;
+  height: 14px;
+  object-fit: cover;
+}

@@ -25,4 +25,5 @@ public class Customer {
 
     private Date updatedAt;
 
+    private int noOfHauls;
 }

@@ -2,17 +2,17 @@ package com.jason.moving.controller;
 
 import com.jason.moving.dto.HaulDTO;
 import com.jason.moving.services.HaulService;
+import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
 @RequestMapping("/api/hauls")
+@Log4j2
+@CrossOrigin(origins = "http://localhost:3000")
 public class HaulController {
 
     @Autowired
@@ -24,7 +24,8 @@ public class HaulController {
     }
 
     @GetMapping("/upcoming/{customerId}")
-    public List<HaulDTO> getUpcomingHaulsByCustomerId(String customerId){
+    public List<HaulDTO> getUpcomingHaulsByCustomerId(@PathVariable String customerId){
+        log.info("from haul controller " + customerId );
         return haulService.getUpcomingHaulsByCustomerId(customerId);
     }
 

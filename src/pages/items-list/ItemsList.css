@@ -1,0 +1,39 @@
+.items-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 10px;
+    text-align: center;
+}
+.category-name{
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px solid #d5d5d5;
+}
+.attach-button{
+    margin-top: 10px !important;
+    border: 1px solid #183251 !important;
+    border-radius: 10px !important;
+    color: #183251 !important;
+    text-decoration: none !important;
+    text-transform: none !important;
+    inline-size: 220px;
+    overflow-wrap: break-word;
+}
+.add-photos{
+    inline-size: 220px;
+    overflow-wrap: break-word;
+
+}
+.image-size{
+    margin-top: 10px;
+    width: 100px;
+    height: fit-content;
+}
+.newItemButton{
+    border-radius: 10px;
+    border: 1px solid #183251 !important;
+    color: #183251 !important;
+    background: #fff !important;
+    width: 300px;
+    margin-left: 30px !important;
+}

@@ -1,0 +1,17 @@
+.item-lists{
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #183251;
+    border-radius: 10px;
+}
+.single-item{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.total-weight{
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #183251;
+    border-radius: 10px;
+}

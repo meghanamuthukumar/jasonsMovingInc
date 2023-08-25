@@ -1,0 +1,17 @@
+.tabs {
+  background-color: #EAE8E8 !important;
+  flex-direction: column;
+  display: flex;
+}
+
+.tab-group {
+  background-color: #EAE8E8 !important;
+  flex-direction: row;
+  display: flex;
+}
+
+.divider {
+  width: 360px;
+  height: 1px;
+  object-fit: cover;
+}

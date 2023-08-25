@@ -1,0 +1,89 @@
+.welcome-page {
+  color: #000;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  font-family: Roboto, Arial;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 16px;
+  display: flex;
+}
+
+.customer-flow {
+  height: 100%;
+  background-color: #fff;
+  flex-direction: column;
+  flex-basis: 100%;
+  justify-content: flex-start;
+  align-self: flex-start;
+  align-items: stretch;
+  display: flex;
+}
+
+.status-bar-instance-1 {
+  width: 100%;
+  flex-basis: 3%;
+  margin-bottom: 16px;
+}
+
+.image {
+  width: 124px;
+  height: 124px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  align-self: center;
+  margin-bottom: 8px;
+  margin-left: 2px;
+}
+
+.frame-1 {
+  width: 90%;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  row-gap: 32px;
+  margin-bottom: 46px;
+  margin-left: 6px;
+  display: flex;
+}
+
+.frame {
+  flex-direction: column;
+  display: flex;
+}
+
+.welcome {
+  margin: 4px 85px 12px 1px;
+  line-height: 32px;
+}
+
+.please-select-one-of-the-options {
+  color: #79747e;
+  margin-bottom: 3px;
+  margin-left: 1px;
+  margin-right: 85px;
+  font-size: .75rem;
+}
+
+.button-instance-1, .button-1-instance {
+  width: 90%;
+  flex-basis: 6%;
+  margin-bottom: 29px;
+  margin-left: 24px;
+}
+
+.button-2-instance {
+  width: 90%;
+  flex-basis: 6%;
+  margin-bottom: 1px;
+  margin-left: 24px;
+}
+
+.welcome-page-text{
+  margin-top: 20px;
+  margin-left: -80px;
+}

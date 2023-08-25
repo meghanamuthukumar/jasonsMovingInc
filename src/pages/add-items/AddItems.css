@@ -1,0 +1,20 @@
+.Kids{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.dimensions-segment{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.dimentions-input{
+    width: 106px;
+}
+.dimentions-input-textfield{
+    width: 106px;
+}
+.add-items-segment{
+    margin-left: 10px;
+}
+.add-item{
+    margin-bottom: 100px;
+}
